@@ -32,7 +32,10 @@ body {
 
 h1, h2, h3, h4, h5 {
   color: #fff;
-  font-weight: 200; }
+  font-weight: 200; 
+  font-family: 'Jeju Gothic', sans-serif;
+}
+
 
 h2 {
   font-size: 25px; }
@@ -46,6 +49,9 @@ a {
     color: #b2c251;
     text-decoration: none; }
 
+.jg {
+font-family: 'Jeju Gothic', sans-serif;
+}
 .parent-nav-link-padding, .site-navbar .navbar-nav > li > a {
   padding: 15px 20px !important; }
 
@@ -227,7 +233,9 @@ a {
       top: 50%; }
   .site-service-item h3 {
     font-size: 20px;
-    font-weight: 200; }
+    font-weight: 200; 
+    
+  }
 
 .site-link {
   position: relative; }
