@@ -12,14 +12,9 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/modal-dialog.css">
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
-
-	<link href="http://fonts.googleapis.com/earlyaccess/jejugothic.css" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
-	<style>
-		/*.jg{font-family: 'Jeju Gothic', sans-serif;}*/
-
-	</style>
+	
 </head>
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
 
@@ -248,6 +243,24 @@
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid img-modal" src="images/agri_thumb.png" alt="">
+							</div>
+							<!-- <a href="images/p3.jpg" class="img-pop-up">   -->
+								<!-- <div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div> --> 
+							<!-- </a>  -->
+
+						</div>
+						<div class="p-inner">
+							<h4>농업 영상 AI데이터 활용 대회 </h4>
+							<div class="cat">Data-Anaylsis</div>
+						</div>                                         
+					</div>
+					<div class="single-portfolio col-sm-4 all packaging da">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
 								<img class="image img-fluid img-modal" src="images/text_thumb.jpg" alt="">
 							</div>
 							<!-- <a href="images/p3.jpg" class="img-pop-up">   -->
@@ -257,6 +270,8 @@
 							<!-- </a>  -->
 
 						</div>
+
+
 						<div class="p-inner">
 							<h4>금융 문자 분석 경진대회 - Dacon</h4>
 							<div class="cat">Data-Anaylsis</div>
@@ -387,6 +402,8 @@
         <div class='jg modal-subheading'> Representative Contents</div>
         <p class="jg">회사 개요</p>
         <p>데이터를 분석한 콘텐츠, 파이썬 분석을 위한 클라우드 환경 및 분석에 필요한 데이터와 API를 제공하는 스타트업</p>
+        <p class="jg">기간</p>
+        <p>2020.01 ~ 2020.07</p>
         <p class="jg">담당 업무 </p>
         <p>Kaggle의 notebooks처럼 원하는 데이터를 분석해 인사이트를 도출</p>
         <p class="jg">- 휴대폰 분석 <a href='https://core.today/story/view/df7af683-4bca-4dc4-925e-961359f38d8c' target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
@@ -403,9 +420,33 @@
 
  
     </div>
-    
-
     <div id="myModal2" class="modal">
+ 		
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="buttonC">&times;</span>   
+        <div class='jg modal-subheading'> 농업 영상 AI 데이터 활용 아이디어 해커톤 대회 </div>
+       	
+        <p class="jg">대회 사이트 : <a href='http://k-farmdata.com/hackathon/' target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
+        <p class="jg">Source Code : <a href='https://github.com/parkeunsang/competitions/tree/master/others/agriculture' target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
+
+       	
+
+       	<p class="jg">개요</p>
+       	<p>  농산물(사과, 마늘, 배 등) 이미지 데이터를 이용해 각 상품의 등급을 판별하는 모델 구축. 총 30만장의 데이터 사용<br>
+       	- 기간 : 2019.12 ~ 2020.01<br>
+       	- 결과 : 최우수상<br>
+   	   	- 팀원 : 3명<br>
+   	   	- 사용모델 : CNN, LGBM, SVM 등<br>
+   	   	- 역할 : 이미지 데이터 전처리 및 CNN 모델링
+       	</p>
+       	<p class="jg">후기</p>
+       	<p>이전까지 딥러닝 모델링을 local 노트북에서 했었는데, 팀원중 한명이 colab을 사용하면 훨씬 빠르다는 조언을해주어 사용해보니 실제로도 훨씬 빨랐다. GPU를 사용하기때문. 또 이미지 classification을 SVM, LGBM ML기반 모델을 이용해서도 적합할 수 있음을 배웠다.(image size가 커지면 전처리를 통해 size를 축소시킬 필요는 있음) 이처럼 혼자 공모전에 나가는것보다 팀원들과 함께 참여하면 배우는것도 많고 재미도 있는것같다.</p>
+       	
+      </div>
+  </div>
+
+    <div id="myModal3" class="modal">
  		
       <!-- Modal content -->
       <div class="modal-content">
@@ -416,9 +457,9 @@
         <img  class="modal-img center" src="images/dacon_1.png" alt="">
         
        	
-        <p class="jg">대회 사이트 : <a href='https://core.today/story/view/8c118ec3-f870-4bb7-b132-f478d56317ce' target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
+        <p class="jg">대회 사이트 : <a href='https://dacon.io/competitions/official/235401/overview/description/' target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
        	
-
+        <p class="jg">Source Code : <a href='https://github.com/parkeunsang/competitions/tree/master/dacon/smishing' target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
        	<p class="jg">개요</p>
        	<p>  약 30만 개의 실제 문자메시지 데이터가 주어지고 그중에서 스미싱 문자를 분류하는 문제.<br>
        	- 평가 지표 : AUC score<br>
@@ -427,32 +468,30 @@
        	<p class="jg">세부 내용</p>
        	<p>Python의 KoNLPy 라이브러리의 형태소 분석기 중 하나인 Okt를 이용해 메시지에서 명사, 동사, 형용사 등 의미 있는 형태소를 추출.<br>
        	이를 labeling한 데이터셋을 LSTM모델을 이용해  적합</p>
-       	<a href="files/smishing.ipynb" download>Source code(.ipynb)</a>
-       	
       </div>
   </div>
 
-     <div id="myModal3" class="modal">
+     <div id="myModal4" class="modal">
  		
       <!-- Modal content -->
       <div class="modal-content">
         <span class="buttonC">&times;</span>   
         <div class='jg modal-subheading'> 각종 Algorithms 구현 </div>
-
-        
         <p class="jg">Github : <a href='https://github.com/parkeunsang/ML_algorithms' target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
        	
 
        	<p class="jg">개요</p>
-       	<p>- Python을 이용해 신경망 모델, 의사결정나무, 회귀분석 등 알고리즘 구현<br>
-       	- 공부한 이론을 실제로 구현하는 과정에서의 어려움을 많이 체감함</p>
+       	<p>- Python을 이용해 신경망 모델, 의사결정나무, 회귀분석 등 알고리즘 구현</p>
+       	<p class="jg">계기, 느낀점</p>
+	       	<p>- 예측 모델의 세부적인 동작원리를 파악해야지 좋은 결과를 낼 수 있음을 체감해 꾸준히 공부하는중이다.<br>
+	       	- 공부한 이론을 실제로 구현하는 과정에서의 어려움을 많이 겪었다.</p>
        	
        
       </div>
 
  	
     </div>
-    <div id="myModal4" class="modal">
+    <div id="myModal5" class="modal">
  		
       <!-- Modal content -->
       <div class="modal-content">
@@ -460,7 +499,7 @@
         <div class='jg modal-subheading'> 야구경기(KBO) 결과 예측</div>
 
         
-        <p class="jg">사이트 : <a href='https://www.kaggle.com/park123/baseball-league-match-prediction-by-ml-algorithms' target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
+        <p class="jg">상세 내용 : <a href='https://www.kaggle.com/park123/baseball-league-match-prediction-by-ml-algorithms' target="_blank" style="cursor:pointer;color:#6666ff;"> Link </a></p>
        	
 
        	<p class="jg">개요</p>
@@ -477,7 +516,7 @@
 
  
     </div>
-     <div id="myModal5" class="modal">
+     <div id="myModal6" class="modal">
  		
       <!-- Modal content -->
       <div class="modal-content">
@@ -503,7 +542,7 @@
 
  	
     </div>
-    <div id="myModal6" class="modal">
+    <div id="myModal7" class="modal">
  		
       <!-- Modal content -->
       <div class="modal-content">
