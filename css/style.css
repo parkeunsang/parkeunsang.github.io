@@ -50,7 +50,13 @@ a {
     text-decoration: none; }
 
 .jg {
-font-family: Jeju Gothic, sans-serif;
+/*font-family: Jeju Gothic, sans-serif;*/
+font-family: 'Noto Sans KR', sans-serif;
+}
+.big {
+  font-size: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #ffffff;
 }
 .parent-nav-link-padding, .site-navbar .navbar-nav > li > a {
   padding: 15px 20px !important; }
